@@ -1,4 +1,7 @@
 SET SERVEROUTPUT ON
+/*
+	adicionado este comentário para fazer o push
+*/
 DECLARE
 	
 	CURSOR meuCursor IS
@@ -18,7 +21,7 @@ BEGIN
 		cont:=cont+1;
 	END LOOP;
 	
-	DBMS_OUTPUT.PUT_LINE('EXISTEM: ' || meusClientes.COUNT);	
+	DBMS_OUTPUT.PUT_LINE('EXISTEM ' || meusClientes.COUNT);	
 	
 	FOR a IN meusClientes.FIRST..meusClientes.LAST LOOP
 		IF meusClientes.EXISTS(a) THEN
