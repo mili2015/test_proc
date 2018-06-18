@@ -1,5 +1,5 @@
 /*
-teste alterado 1
+teste alterado 2
 */
 CREATE OR REPLACE PROCEDURE TESTE_FELIPE_2 (o_cursor IN OUT SYS_REFCURSOR) IS
 BEGIN
