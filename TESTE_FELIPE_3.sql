@@ -1,3 +1,7 @@
+/*
+	alteracao 1 sem commit
+	alteracao com edvald
+*/
 CREATE OR REPLACE PROCEDURE TESTE_FELIPE_3 (nNrCarga NUMBER, o_cursor OUT NUMBER) IS
 
 
