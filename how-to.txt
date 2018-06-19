@@ -18,3 +18,5 @@ git command line
  
  -- Pushes the changes in your local repository up to the remote repository you specified as the origin
  git push origin master
+ 
+ git pull origin master
