@@ -11,7 +11,9 @@ git command line
  
  -- se não tiver criado o repositório
  -- Sets the new remote
+ -- https://github.com/mili2015/dba.git
  git remote add origin https://github.com/mili2015/test_proc.git
+ 
  
  --Verifies the new remote URL
  git remote -v
@@ -21,3 +23,22 @@ git command line
  
  -- 
  git pull origin master
+ 
+ 
+ 
+ =====================================
+ 
+ …or create a new repository on the command line
+echo "# dba" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/mili2015/dba.git
+git push -u origin master
+
+…or push an existing repository from the command line
+git remote add origin https://github.com/mili2015/dba.git
+git push -u origin master
+
+…or import code from another repository
+You can initialize this repository with code from a Subversion, Mercurial, or TFS project.
